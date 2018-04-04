@@ -1,0 +1,28 @@
+{
+  "name": "krn-gifv",
+  "version": "1.0.0",
+  "description": "Use a MP4 as a GIF replacement to save bandwidth, cross browser cross platform support",
+  "main": "krn-gifv.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KroneMultimedia/krn-gifv.git"
+  },
+  "keywords": [
+    "gifv",
+    "mp4",
+    "video",
+    "autoplay"
+  ],
+  "author": "KroneMultimedia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KroneMultimedia/krn-gifv/issues"
+  },
+  "homepage": "https://github.com/KroneMultimedia/krn-gifv#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
