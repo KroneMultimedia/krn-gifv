@@ -1,6 +1,8 @@
 {
   "name": "krn-gifv",
   "version": "1.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "jquery": "*"
+  },
   "main": "krn-gifv.js"
 }
