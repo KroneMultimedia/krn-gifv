@@ -1,4 +1,9 @@
-# krn-gifv
+GIFv JS library - to get a friction free variation of GIFv on almost all browsers, from IE to AndroidWebView
+
+
+https://help.imgur.com/hc/en-us/articles/208606616-What-is-GIFV-
+
+
 
 
 ```html
