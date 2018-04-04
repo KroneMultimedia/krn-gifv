@@ -2,5 +2,5 @@
   "name": "krn-gifv",
   "version": "1.0.0",
   "dependencies": {},
-  "main": "krn-gifv.js",
+  "main": "krn-gifv.js"
 }
