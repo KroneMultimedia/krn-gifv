@@ -1,8 +1,12 @@
 var _KRNGIFv = {
-    start: function() {
+    start: function(cb) {
         var self = this;
+        if(cb) {
+          self.cb = cb;
+        }
         self.video_elements = $("video[data-krn-gifv='1']")
         self.isAutoPlayAthing();
+
     },
     isAutoPlayAthing: function() {
         var self = this;
@@ -56,8 +60,16 @@ var _KRNGIFv = {
     },
     autoPlayWorks: function() {
         var self = this;
-        self.video_elements.each(function() {
+        self.video_elements.each(function(idx) {
+          if(self.cb) {
+            if(self.cb("play", idx)) {
+              $(this)[0].play();
+            } else {
+              $(this).attr("poster", $(this).data("krn-poster"));
+            }
+          } else {
             $(this)[0].play();
+          }
         })
     }
 
