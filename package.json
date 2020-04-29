@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/KroneMultimedia/krn-gifv#readme",
   "dependencies": {
-    "jquery": "^3.4.0"
+    "jquery": "^3.5.0"
   }
 }
